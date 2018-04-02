@@ -6,3 +6,14 @@ const doubledNumbers = numbers.map( number => {
 })
 
 console.log (doubledNumbers)
+
+const colors = [ {name:'red'}, {name:'blue'}, {name:'yellow'}]
+
+function pluck(color) {
+        return color['name']
+}
+console.log(colors.map(pluck))
+
+// console.log(colors.map(color => {
+//     return color.name
+// }))
