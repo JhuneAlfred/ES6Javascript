@@ -1,3 +1,4 @@
+//returns a new array
 const numbers = [1,2,3,4]
 
 

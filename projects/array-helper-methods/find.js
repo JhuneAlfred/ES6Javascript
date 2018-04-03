@@ -1,3 +1,4 @@
+//find returns the first occurrence of matching value, no match will return "undefined"
 const users = [
     {name: 'Jill'},
     {name: 'Alex'},

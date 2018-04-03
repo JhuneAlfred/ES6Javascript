@@ -1,3 +1,4 @@
+//iterates through each element in the array
 const colors = [ 'red', 'yellow', 'blue', 'green']
 const myColor = 'blue'
 
@@ -7,7 +8,7 @@ colors.forEach( (color) => {
 
 colors.forEach((color) => {
     console.log(`I found my color ${myColor}`)
-    console.log(color === myColor)
+    console.log(color)
 })
 
 const numbers = [1,2,3,4,5]

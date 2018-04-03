@@ -1,3 +1,4 @@
+//filter returns an array of filtered values
 const products = [
     { name: 'cucumber', type: 'vegetable', quantity: 0, price: 1},
     { name: 'banana', type: 'fruit', quantity: 10, price: 15},
