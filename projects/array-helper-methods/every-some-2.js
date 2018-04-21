@@ -2,7 +2,7 @@ function Field(value) {
     this.value = value
 }
 
-Field.prototype.validate = function() {
+Field.prototype.validate = function () {
     return this.value.length > 0;
 }
 
@@ -19,3 +19,7 @@ const formIsValid = fields.every(field => {
 })
 
 console.log(formIsValid)
+
+// output:
+// true
+// true

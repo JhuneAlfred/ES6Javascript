@@ -18,3 +18,6 @@ var deskTypes = desks.reduce((deskTypes, desk) => {
 }, { sitting: 0, standing: 0 });
 
 console.log(deskTypes)
+
+// output:
+// { sitting: 3, standing: 2 }

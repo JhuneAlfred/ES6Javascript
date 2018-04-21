@@ -2,10 +2,10 @@
 //every all must match the criteria to return true
 //some must match at least one to return true
 const computers = [
-    {name: 'Apple', ram: 4 },
-    {name: 'Compaq', ram: 14 },
-    {name: 'Dell', ram: 12 },
-    {name: 'HP', ram: 8 },
+    { name: 'Apple', ram: 4 },
+    { name: 'Compaq', ram: 14 },
+    { name: 'Dell', ram: 12 },
+    { name: 'HP', ram: 8 },
 ]
 
 let allComputersCanRunProgram = computers.every(computer => {
@@ -38,3 +38,7 @@ const someNamesGT4 = names.some(name => {
 
 console.log(allNamesGT4)
 console.log(someNamesGT4)
+
+// output:
+// false
+// true

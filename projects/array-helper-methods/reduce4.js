@@ -12,3 +12,5 @@ function unique(array) {
 
 console.log(unique(numbers))
 
+// output:
+// [ 1, 2, 3, 4, 5 ]

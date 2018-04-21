@@ -10,3 +10,7 @@ function balancedParens(string) {
 const result = balancedParens("()()()())(()")
 
 console.log(result)
+
+
+// result;
+// false
