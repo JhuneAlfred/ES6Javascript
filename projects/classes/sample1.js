@@ -20,12 +20,16 @@ class Toyota extends Car {
     }
 }
 
-const car = new Car({title: 'Nissan', color: 'white'})
+const car = new Car({ title: 'Nissan', color: 'white' })
 
 //console.log(car)
 //console.log(car.drive())
 
-const toyota = new Toyota({color: 'yellow', title: 'Toyota'})
+const toyota = new Toyota({ color: 'yellow', title: 'Toyota' })
 
 console.log(toyota)
 console.log(toyota.honk())
+
+//outpu
+//Toyota { title: 'Toyota', color: 'yellow' }
+//beep
