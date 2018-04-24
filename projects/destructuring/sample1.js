@@ -16,3 +16,15 @@ console.log(amount)
 //Output
 // Business
 // $45. USD
+
+const numbers = [1,2,3];
+
+const double = (numbers) => {
+    const [a,b,c] = numbers;
+    return [a*2,b*2,c*2];
+}
+
+console.log(double(numbers))
+
+//output
+//[ 2, 4, 6 ]
