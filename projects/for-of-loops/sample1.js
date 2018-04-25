@@ -7,5 +7,3 @@ for (let number of numbers) {
 }
 
 console.log(total)
-
-console.log('dfdsfsd')
