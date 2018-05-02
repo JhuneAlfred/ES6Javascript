@@ -16,6 +16,8 @@ function* TeamIterator(team) {
   yield team.lead;
   yield team.manager;
   yield team.engineer;
+  const testingTeamGenerator = TestingTeamIterator(team.testingTeam);
+  yield* testingTeamGenerator;
 }
 
 function* TestingTeamIterator(team) {
@@ -29,3 +31,6 @@ for (let name of TeamIterator(engineeringTeam)) {
 }
 
 console.log(names);
+
+//Output
+//[ 'Jill', 'Alex', 'Dave', 'Amanda', 'Bill' ]
